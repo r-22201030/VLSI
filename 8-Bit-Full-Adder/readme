@@ -1,0 +1,20 @@
+# 8-Bit Full Adder
+
+This project implements an **8-Bit Full Adder using VHDL**.
+
+The circuit is built using **eight 1-Bit Full Adders** connected in a ripple-carry structure.
+
+### Features
+- 8-bit binary addition
+- Carry-in (`Cin`)
+- 8-bit Sum output
+- Carry-out (`Cout`)
+- Includes a VHDL testbench
+
+### Files
+- `FULL_ADDER_8BIT.vhd` – 8-Bit Full Adder
+- `FULL_ADDER_8BIT_TB.vhd` – Testbench
+
+### Tool
+- Xilinx ISE
+- VHDL
