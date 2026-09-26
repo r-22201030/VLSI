@@ -1,1 +1,19 @@
+# 1-Bit Full Adder
 
+This project implements a **1-Bit Full Adder using NAND gates as Universal Gates** in VHDL.
+
+### Features
+- Uses only NAND gate instances
+- Inputs: `A`, `B`, `Cin`
+- Outputs: `Sum`, `Cout`
+- Includes VHDL testbenches
+
+### Files
+- `NAND_GATE.vhd` – NAND Gate
+- `NAND_GATE_TB.vhd` – NAND Gate Testbench
+- `FULL_ADDER.vhd` – 1-Bit Full Adder
+- `FULL_ADDER_TB.vhd` – Full Adder Testbench
+
+### Tool
+- VHDL
+- Xilinx ISE
