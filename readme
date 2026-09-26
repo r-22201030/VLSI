@@ -1,0 +1,29 @@
+# 8-Bit Full Adder Using NAND Gates
+
+This project implements an **8-bit Full Adder using NAND gates as Universal Gates** in VHDL.
+
+### Modules
+
+* NAND Gate
+* 1-Bit Full Adder using NAND gates
+* 8-Bit Full Adder using 8 × 1-bit Full Adders
+* Testbenches for verification
+
+### Tools
+
+* VHDL
+* Xilinx Vivado
+
+### Concept
+
+```text
+NAND Gate
+   ↓
+1-Bit Full Adder
+   ↓
+8-Bit Full Adder
+```
+
+The 8-bit Full Adder uses a **Ripple Carry** structure, where the carry output of one Full Adder is connected to the carry input of the next.
+
+**Author:** Rafia Islam Rosny
